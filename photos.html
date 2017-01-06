@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html>
+<title>Shivalee Talati</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+<link href="https://fonts.googleapis.com/css?family=Alegreya+SC" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+<style>
+.w3-card-2{}
+
+.w3-theme-l5 {color:#000 !important; background-color:#e9fffd !important}
+.w3-theme-l4 {color:#000 !important; background-color:#b7fff8 !important}
+.w3-theme-l3 {color:#000 !important; background-color:#6efff1 !important}
+.w3-theme-l2 {color:#000 !important; background-color:#26ffe9 !important}
+.w3-theme-l1 {color:#fff !important; background-color:#00dcc6 !important}
+.w3-theme-d1 {color:#fff !important; background-color:#008578 !important}
+.w3-theme-d2 {color:#fff !important; background-color:#00766a !important}
+.w3-theme-d3 {color:#fff !important; background-color:#00685d !important}
+.w3-theme-d4 {color:#fff !important; background-color:#005950 !important}
+.w3-theme-d5 {color:#fff !important; background-color:#004a43 !important}
+.w3-theme-light {color:#000 !important; background-color:#e9fffd !important}
+.w3-theme-dark {color:#fff !important; background-color:#004a43 !important}
+.w3-theme-action {color:#fff !important; background-color:#004a43 !important}
+
+.w3-theme {color:#fff !important; background-color:#009688 !important}
+.w3-text-theme {color:#009688 !important}
+.w3-border-theme {border-color:#009688 !important}
+
+.w3-hover-theme:hover {color:#fff !important; background-color:#009688 !important}
+.w3-hover-text-theme:hover {color:#009688 !important}
+.w3-hover-border-theme:hover {border-color:#009688 !important}
+html,body{font-family: 'Alegreya SC', serif;font-size:15px;line-height:1.5}
+h1,li{font-family: 'Alegreya SC'}
+html,h2,h3,h4,h5,h6,p {font-family: "Raleway", sans-serif}
+.w3-sidenav a,.w3-sidenav h4{padding:12px;}
+.w3-navbar a{padding-top:12px !important;padding-bottom:12px !important;}
+.biotext{text-align:justify; text-justify:inter-word;}
+.w3-modal{z-index:4;}
+
+
+
+
+</style>
+<body>
+
+<!-- Navbar -->
+<ul class="w3-navbar w3-theme w3-top w3-left-align w3-large" style="z-index:3;">
+  <li class="w3-opennav w3-right w3-hide-large">
+    <a class="w3-hover-white w3-large w3-theme-l1" href="javascript:void(0)" onclick="w3_open()"><i class="fa fa-bars"></i></a>
+  </li>
+  <li><a href="default.htm" class="w3-theme-l1"><i class="fa fa-home"></i> Shivalee Talati</a></li>
+  <li class="w3-hide-small "><a href="biography.html" class="w3-hover-white .w3-alegreyaSC">Biography</a></li>
+  <li class="w3-hide-small"><a href="classes.html" class="w3-hover-white .w3-alegreyaSC">Classes</a></li>
+  <li class="w3-hide-small"><a href="vision.html" class="w3-hover-white .w3-alegreyaSC">Vision</a></li>
+  <li class="w3-hide-small "><a href="contact.html" class="w3-hover-white .w3-alegreyaSC">Contact</a></li>
+
+</ul>
+
+<!-- Sidenav -->
+<nav class="w3-sidenav w3-collapse w3-theme-l5 w3-animate-left" style="position:relative;z-index:2;width:250px;margin-top:51px;" id="mySidenav">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-right w3-xlarge w3-padding-large w3-hover-black w3-hide-large" title="close menu">
+    <i class="fa fa-remove"></i>
+  </a>
+  <!-- <h4><b>Menu</b></h4> -->
+  <div style="position:absolute; top:5%; margin-top:0px;">
+  <div class="w3-hover-shadow w3-margin-left w3-margin-right w3-margin-top"><a href="videos.html"><img src='DSC_8350.jpg' width='100%' height='100%'></a></div>
+  <div href="#" class="w3-center w3-padding-0 ">VIDEOS</div>
+  <div class="w3-hover-shadow w3-margin-left w3-margin-right"><a href="photos.html"><img src='DSC_3364.jpg' width='100%' height='100%'></a></div>
+  <div href="#" class="w3-center w3-padding-0">PHOTOS</div>
+  <div class="w3-hover-shadow w3-margin-left w3-margin-right"><a href="testimonials.html"><img src='DSC_8434 (1).jpg' width='100%' height='100%'></a></div>
+  <div href="#" class="w3-center w3-padding-0">TESTIMONIALS</div>
+</div>
+</nav>
+
+<!-- Overlay effect when opening sidenav on small screens -->
+<div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- Main content: shift it to the right by 250 pixels when the sidenav is visible -->
+<div class="w3-main" style="margin-left:250px">
+
+  <div class="w3-row w3-padding-64">
+ 
+    <div class=" w3-container">
+      <h1 class="w3-text-teal w3-center w3-border-bottom">Photos</h1>
+    </div>
+
+    <div class="w3-row-padding w3-margin">
+      <div class="w3-quarter">
+        <div class="w3-card-2">
+          <img src="DSC_8405 (1)a.jpg" onclick="openModal();currentDiv(1)" style="width:100%; cursor:pointer; height:150px;">
+        </div>
+      </div>
+      <div class="w3-quarter">
+        <div class="w3-card-2">
+          <img src="DSC_8413 (1)a.jpg" onclick="openModal();currentDiv(2)" style="width:100%; cursor:pointer;height:150px;">
+        </div>
+      </div>
+      <div class="w3-quarter">
+        <div class="w3-card-2">
+          <img src="DSC_8447a.jpg" onclick="openModal();currentDiv(3)" style="width:100%;cursor:pointer; height:150px;">
+        </div>
+      </div>
+      <div class="w3-quarter">
+        <div class="w3-card-2">
+          <img src="DSC_8454a.jpg" onclick="openModal();currentDiv(4)" style="width:100%; cursor:pointer; height:150px;">
+        </div>
+      </div>
+    </div>
+
+
+
+    <div class="w3-row-padding w3-margin">
+      <div class="w3-quarter">
+        <div class="w3-card-2">
+          <img src="DSC_8284a.jpg" onclick="openModal();currentDiv(5)" style="width:100%; cursor:pointer; height:150px;">
+        </div>
+      </div>
+      <div class="w3-quarter">
+        <div class="w3-card-2">
+          <img src="DSC_8276a.jpg" onclick="openModal();currentDiv(6)" style="width:100%; cursor:pointer;height:150px;">
+        </div>
+      </div>
+      <div class="w3-quarter">
+        <div class="w3-card-2">
+          <img src="DSC_8327a.jpg" onclick="openModal();currentDiv(7)" style="width:100%;cursor:pointer; height:150px;">
+        </div>
+      </div>
+      <div class="w3-quarter">
+        <div class="w3-card-2">
+          <img src="DSC_8263a.jpg" onclick="openModal();currentDiv(8)" style="width:100%; cursor:pointer; height:150px;">
+        </div>
+      </div>
+    </div>
+
+
+
+
+    <div class="w3-row-padding w3-margin">
+      <div class="w3-quarter">
+        <div class="w3-card-2">
+          <img src="fb4a.jpg" onclick="openModal();currentDiv(9)" style="width:100%; cursor:pointer; height:150px;">
+        </div>
+      </div>
+      <div class="w3-quarter">
+        <div class="w3-card-2">
+          <img src="fb5a.jpg" onclick="openModal();currentDiv(10)" style="width:100%; cursor:pointer;height:150px;">
+        </div>
+      </div>
+      <div class="w3-quarter">
+        <div class="w3-card-2">
+          <img src="ig4.png" onclick="openModal();currentDiv(11)" style="width:100%;cursor:pointer; height:150px;">
+        </div>
+      </div>
+      <div class="w3-quarter">
+        <div class="w3-card-2">
+          <img src="DSC_3371.jpg" onclick="openModal();currentDiv(12)" style="width:100%; cursor:pointer; height:150px;">
+        </div>
+      </div>
+    </div>
+
+    <div class="w3-row-padding w3-margin">
+      <div class="w3-quarter">
+        <div class="w3-card-2">
+          <img src="DSC_3205.jpg" onclick="openModal();currentDiv(13)" style="width:100%; cursor:pointer; height:150px;">
+        </div>
+      </div>
+
+      <div class="w3-quarter">
+        <div class="w3-card-2">
+          <img src="DSC_3222.jpg" onclick="openModal();currentDiv(14)" style="width:100%; cursor:pointer; height:150px;">
+        </div>
+      </div>
+
+      <div class="w3-quarter">
+        <div class="w3-card-2">
+          <img src="DSC_3245.jpg" onclick="openModal();currentDiv(15)" style="width:100%; cursor:pointer; height:150px;">
+        </div>
+      </div>
+
+      <div class="w3-quarter">
+        <div class="w3-card-2 ">
+          <img src="Didi-1.jpg" onclick="openModal();currentDiv(16)" style="width:100%; cursor:pointer; height:150px;">
+        </div>
+      </div>
+    </div>
+
+    <div class="w3-row-padding w3-margin">
+      <div class="w3-quarter">
+        <div class="w3-card-2">
+          <img src="fb2a.jpg" onclick="openModal();currentDiv(17)" style="width:100%; cursor:pointer; height:150px;">
+        </div>
+      </div>
+
+      <div class="w3-quarter">
+        <div class="w3-card-2">
+          <img src="ig2.png" onclick="openModal();currentDiv(18)" style="width:100%; cursor:pointer; height:150px;">
+        </div>
+      </div>
+
+      <div class="w3-quarter">
+        <div class="w3-card-2">
+          <img src="kathak8a.jpg" onclick="openModal();currentDiv(19)" style="width:100%; cursor:pointer; height:150px;">
+        </div>
+      </div>
+
+      <div class="w3-quarter">
+        <div class="w3-card-2 ">
+          <img src="fb6a.jpg" onclick="openModal();currentDiv(20)" style="width:100%; cursor:pointer; height:150px;">
+        </div>
+      </div>
+    </div>
+
+    <div class="w3-row-padding w3-margin">
+      <div class="w3-quarter">
+        <div class="w3-card-2">
+          <img src="kathak1a.jpg" onclick="openModal();currentDiv(21)" style="width:100%; cursor:pointer; height:150px;">
+        </div>
+      </div>
+
+      <div class="w3-quarter">
+        <div class="w3-card-2">
+          <img src="kathak2a.jpg" onclick="openModal();currentDiv(22)" style="width:100%; cursor:pointer; height:150px;">
+        </div>
+      </div>
+
+      <div class="w3-quarter">
+        <div class="w3-card-2">
+          <img src="kathak3a.jpg" onclick="openModal();currentDiv(23)" style="width:100%; cursor:pointer; height:150px;">
+        </div>
+      </div>
+
+      <div class="w3-quarter">
+        <div class="w3-card-2">
+          <img src="kathak4a.jpg" onclick="openModal();currentDiv(24)" style="width:100%; cursor:pointer; height:150px;">
+        </div>
+      </div>
+    </div>
+
+    <div class="w3-row-padding w3-margin">
+      <div class="w3-quarter">
+        <div class="w3-card-2">
+          <img src="kathak5a.jpg" onclick="openModal();currentDiv(25)" style="width:100%; cursor:pointer; height:150px;">
+        </div>
+      </div>
+
+      <div class="w3-quarter">
+        <div class="w3-card-2">
+          <img src="kathak6a.jpg" onclick="openModal();currentDiv(26)" style="width:100%; cursor:pointer; height:150px;">
+        </div>
+      </div>
+
+      <div class="w3-quarter">
+        <div class="w3-card-2">
+          <img src="kathak7a.jpg" onclick="openModal();currentDiv(27)" style="width:100%; cursor:pointer; height:150px;">
+        </div>
+      </div>
+      <div class="w3-quarter">
+        <div class="w3-card-2 ">
+          <img src="garba1a.jpg" onclick="openModal();currentDiv(28)" style="width:100%; cursor:pointer; height:150px;">
+        </div>
+      </div>
+    </div>
+
+    <div class="w3-row-padding w3-margin">
+      <div class="w3-quarter">
+        <div class="w3-card-2">
+          <img src="ig1.png" onclick="openModal();currentDiv(29)" style="width:100%; cursor:pointer; height:150px;">
+        </div>
+      </div>
+
+      <div class="w3-quarter">
+        <div class="w3-card-2">
+          <img src="ig3.png" onclick="openModal();currentDiv(30)" style="width:100%; cursor:pointer; height:150px;">
+        </div>
+      </div>
+    
+      <div class="w3-quarter">
+        <div class="w3-card-2">
+          <img src="fb3a.jpg" onclick="openModal();currentDiv(31)" style="width:100%; cursor:pointer; height:150px;">
+        </div>
+      </div>
+    
+      <div class="w3-quarter">
+        <div class="w3-card-2">
+          <img src="babyshivalee.png" onclick="openModal();currentDiv(32)" style="width:100%; cursor:pointer; height:150px;">
+        </div>
+      </div>
+    </div>
+  </div> 
+
+
+<div id="myModal" class="w3-modal w3-animate-opacity">
+ <span class="w3-text-white w3-xxlarge w3-hover-text-grey w3-container w3-display-topright" onclick="closeModal()" style="cursor:pointer">&times;</span>
+ <div class="w3-modal-content">
+
+  <div class="w3-content" onkeydown="whichPicKey()" style="max-width:1200px">
+    
+    <img class="mySlides" src="DSC_8405 (1)a.jpg" style="width:100%">
+    <img class="mySlides" src="DSC_8413 (1)a.jpg" style="width:100%">
+    <img class="mySlides" src="DSC_8447a.jpg" style="width:100%">
+    <img class="mySlides" src="DSC_8454a.jpg" style="width:100%">
+    <img class="mySlides" src="DSC_8284a.jpg" style="width:100%">
+    <img class="mySlides" src="DSC_8276a.jpg" style="width:100%">
+    <img class="mySlides" src="DSC_8327a.jpg" style="width:100%">
+    <img class="mySlides" src="DSC_8263a.jpg" style="width:100%">
+
+   <img class="mySlides" src="fb4a.jpg" style="width:100%">
+   <img class="mySlides" src="fb5a.jpg" style="width:100%">
+   <img class="mySlides" src="ig4a.png" style="width:100%">
+   <img class="mySlides" src="DSC_3371a.jpg" style="width:100%">
+   <img class="mySlides" src="DSC_3205a.jpg" style="width:100%">
+   <img class="mySlides" src="DSC_3222a.jpg" style="width:100%">
+   <img class="mySlides" src="DSC_3245a.jpg" style="width:100%">
+   <img class="mySlides" src="Didi-1a.jpg" style="width:100%">
+   <img class="mySlides" src="fb2a.jpg" style="width:100%">
+   <img class="mySlides" src="ig2a.png" style="width:100%">
+   <img class="mySlides" src="kathak8a.jpg" style="width:100%">
+   <img class="mySlides" src="fb6a.jpg" style="width:100%">
+   <img class="mySlides" src="kathak1a.jpg" style="width:100%">
+   <img class="mySlides" src="kathak2a.jpg" style="width:100%">
+   <img class="mySlides" src="kathak3a.jpg" style="width:100%">
+   <img class="mySlides" src="kathak4a.jpg" style="width:100%">
+   <img class="mySlides" src="kathak5a.jpg" style="width:100%">
+   <img class="mySlides" src="kathak6a.jpg" style="width:100%">
+   <img class="mySlides" src="kathak7a.jpg" style="width:100%">
+   <img class="mySlides" src="garba1a.jpg" style="width:100%">
+   <img class="mySlides" src="ig1a.png" style="width:100%">
+   <img class="mySlides" src="ig3a.png" style="width:100%">
+   <img class="mySlides" src="fb3a.jpg" style="width:100%">
+   <img class="mySlides" src="babyshivaleea.png" style="width:100%">
+
+
+     <span class="w3-display-left w3-btn-floating" onclick="plusDivs(-1)">&#10094;</span>
+     <span class="w3-display-right w3-btn-floating" onclick="plusDivs(1)">&#10095;</span>
+
+  </div> <!-- End w3-content -->
+  
+ </div> <!-- End modal content -->
+</div> <!-- End modal -->
+
+
+
+
+<div style="height=200px;"></div>
+<br/><br/><br/>
+  <footer class="w3-border" id="myFooter">
+    <div class="w3-container w3-theme-d1"> 
+      <div class="w3-xlarge w3-center  w3-padding-16">
+        <a href="https://www.facebook.com/shivaleetalati/?fref=ts" class="w3-padding w3-hover-text-aqua"><i class="fa fa-facebook-official"></i></a>
+        <a href="https://www.youtube.com/channel/UCT3RYSE-8IKaJp2jlXQiG1A" class="w3-padding w3-hover-text-aqua"><i class="fa fa-youtube-play"></i></a>
+        <a href="https://www.instagram.com/shivaleetalatidance/" class="w3-padding w3-hover-text-aqua"><i class="fa fa-instagram"></i></a>
+
+      </div>
+    </div>
+  </footer>
+
+
+<!-- END MAIN -->
+</div>
+
+<script>
+// Get the Sidenav
+var mySidenav = document.getElementById("mySidenav");
+
+// Get the DIV with overlay effect
+var overlayBg = document.getElementById("myOverlay");
+
+// Toggle between showing and hiding the sidenav, and add overlay effect
+function w3_open() {
+    if (mySidenav.style.display === 'block') {
+        mySidenav.style.display = 'none';
+        overlayBg.style.display = "none";
+    } else {
+        mySidenav.style.display = 'block';
+        overlayBg.style.display = "block";
+    }
+}
+
+// Close the sidenav with the close button
+function w3_close() {
+    mySidenav.style.display = "none";
+    overlayBg.style.display = "none";
+}
+
+function openModal() {
+  document.getElementById('myModal').style.display = "block";
+}
+
+function closeModal() {
+  document.getElementById('myModal').style.display = "none";
+}
+
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function currentDiv(n) {
+  showDivs(slideIndex = n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  var captionText = document.getElementById("caption");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+     dots[i].className = dots[i].className.replace(" w3-opacity-off", "");
+
+  }
+  x[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " w3-opacity-off";
+  captionText.innerHTML = dots[slideIndex-1].alt;
+}
+
+
+</script>
+
+</body>
+</html>
+

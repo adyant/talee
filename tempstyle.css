@@ -1,0 +1,13 @@
+body {background: #000000; margin: 0; padding: 0;} 
+
+a {color: #2b2bf6;}           
+
+#container {width: 900px; margin: 0; padding: 0; background: #dddddd;}  
+         
+#pinkheader {width: 900px; 	height: 150px; 	margin: 0; padding: 0; border: 0; background: #f346e1;}           
+
+#yellowsidebar {width: 200px; height: 400px; 	margin: 0; padding: 0; border: 0; float: left; background: #f0e811;}           
+
+#bluecontent {width: 700px; height: 400px; 	margin: 0; padding: 0; border: 0; float: left; background: #8be0ef;}           
+
+#blkfooter {width: 900px; 	height: 70px; 	margin: 0; padding: 0; border: 0; float: left; background: #000000; clear:both;}                

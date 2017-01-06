@@ -1,0 +1,56 @@
+body {background: #000000; margin: 0; padding: 0;} 
+
+a {color: #2b2bf6;}           
+
+#container {width: 900px; margin: 0; padding: 0; background: #dddddd;}  
+         
+#header {width: 900px; 	height: 150px; 	margin: 0; padding: 0; border: 0; background: #f346e1;}           
+
+#sidebar {width: 200px; height: 400px; 	margin: 0; padding: 0; border: 0; float: left; background: #f0e811;}           
+
+#content {width: 700px; height: 400px; 	margin: 0; padding: 0; border: 0; float: left; background: #8be0ef;}           
+
+#footer {width: 900px; 	height: 70px; 	margin: 0; padding: 0; border: 0; float: left; background: #000000; clear:both;}                
+
+.container{
+
+}
+
+/*img{
+
+margin: auto;
+height:80%;
+width:100%;
+opacity:0;
+-moz-transition: opacity 4s; /* Firefox 4 */
+/*-webkit-transition: opacity 4s; /* Safari and Chrome */
+/*-o-transition: opacity 4s;
+transition: opacity 4s;
+}
+*/
+.imgtitle,p{
+position:absolute;
+top: 50px;
+left: 50px;
+font-size: 30px;
+font-family:”Palatino Linotype", "Book Antiqua", Palatino, serif
+opacity:0;
+-moz-transition: opacity 6s; /* Firefox 4 */
+-webkit-transition: opacity 6s; /* Safari and Chrome */
+-o-transition: opacity 6s;
+transition: opacity 6s;
+}
+
+
+.pccredit,a{
+position:absolute;
+bottom: 1%;
+right: 1%;
+font-size: 12px;
+}
+
+.rowgap{
+height:50px;
+
+
+}
